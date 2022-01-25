@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/or-architecture/static/js/main.d040bc81.js",
+    "static/js/787.1f98a46e.chunk.js": "/or-architecture/static/js/787.1f98a46e.chunk.js",
+    "static/media/logo-white.png": "/or-architecture/static/media/logo-white.f41e43d47dfa53bc8101.png",
+    "index.html": "/or-architecture/index.html",
+    "main.d040bc81.js.map": "/or-architecture/static/js/main.d040bc81.js.map",
+    "787.1f98a46e.chunk.js.map": "/or-architecture/static/js/787.1f98a46e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d040bc81.js"
+  ]
+}
