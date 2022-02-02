@@ -13,7 +13,7 @@ const Nav = styled.nav`
   z-index: 100;
   position: fixed;
   width: 100%;
-  background: ${({ navbar }) => (navbar ? "#000d1a" : "transparent")};
+  background: ${({ navbar }) => (navbar ? "rgba(0, 13, 26, 1)" : "transparent")};
   transition: all 0.3s ease;
 `
 
@@ -76,16 +76,20 @@ const NavMenuLinks = styled(Link)`
   ${NavLink}
 `
 
-const Navbar = ({ toggle }) => {
-  const [navbar, setNavbar] = useState(false);
+const Navbar = ({ toggle, isHomePage }) => {
+  const [navbar, setNavbar] = useState(!isHomePage);
+
   const changeBackground = () => {
-    if (window.scrollY >= 100) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
+    if (isHomePage) {
+      if (window.scrollY >= 100) {
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
     }
   }
   window.addEventListener('scroll', changeBackground);
+
   return (
     <Nav navbar={navbar}>
       <Logo to="/">

@@ -1,7 +1,7 @@
 export const SlideData = [
     {
         title: "MX展廊",
-        path: "",
+        path: "/Works/mxGallery",
         label: "查看",
         image: "https://or-architecture.s3.amazonaws.com/projects/MX%E5%B1%95%E5%BB%8A/interior1.jpeg",
         shortIntro: "M即Movable Modules，可移动的模块构成了展廊的整体；X即Expandable Experience，可扩展的体验构建了展廊的意义。",
@@ -12,7 +12,7 @@ export const SlideData = [
     },
     {
         title: "N.Y.R. 时装店",
-        path: "",
+        path: "/Works/NYRClothStore",
         label: "查看",
         shortIntro: `复古的手工质感，明快，柔和，纯净的氛围展现中性气息。使整个空间沐浴在柔和的光线中。`,
         image: "https://or-architecture.s3.amazonaws.com/projects/N.Y.R.+%E6%97%B6%E8%A3%85%E5%BA%97/%E5%BC%A7%E7%BA%BF%E3%80%81%E7%9B%B4%E7%BA%BF%E4%B8%8E%E6%8A%98%E7%BA%BF%E5%BD%A2%E6%88%90%E6%9E%84%E5%9B%BE++The+composition+of+arcs%2C+straight+lines+and+polylines.JPG",
